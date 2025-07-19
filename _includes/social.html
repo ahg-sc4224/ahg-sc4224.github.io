@@ -5,6 +5,7 @@
           <span class="grey fa-brands fa-lg"><img src="{{ '/' | relative_url }}assets/images/{{ site.partner.logo }}" alt="{{ site.partner.name }}"/></span>
         </a>
       </li>
+    {% endif %}
     {%- for entry in site.minima.social_links -%}
       <li>
         <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
